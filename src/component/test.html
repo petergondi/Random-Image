@@ -1,0 +1,23 @@
+<script>
+    var first = prompt("Please enter first number", "");
+    if(isNaN(first)){
+        alert("please enter numbers only");
+      return false
+    }else{
+      return first;
+    }
+ 
+   var second = prompt("Please enter your second number", "");
+   if(isNaN(second)){
+     
+        alert("please enter numbers only");
+        return false;
+     
+    }else{
+      return second;
+    }
+   
+   sum=parseInt(first)+parseInt(second);
+    alert(first+"+"+second+"="+sum);
+
+  </script>
